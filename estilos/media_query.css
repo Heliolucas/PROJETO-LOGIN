@@ -26,10 +26,6 @@ Televisão: acima de 1366px
         height: 100%;
     }
     section#login > div#formulario {
-        float: right;
-        width: 70%;
-    }
-}
 
 @media screen and (min-width: 992px){
     body{
@@ -54,5 +50,8 @@ Televisão: acima de 1366px
     div#formulario > p{
         font-size: 1.2em;
         margin: 20px 0px;
+    }
+    div.campo > input{
+        transform: translate(1px,-14px);
     }
 }
